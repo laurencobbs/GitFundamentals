@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    line-height: 1.5;
+}
+
+.header nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+    z-index: 2;
+    position: relative;
+}
+
+.header nav .btn {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    background: url(images/headerbg.jpg)
+    no-repeat center center / cover;
+    height: 680px;
+}
+
+.content .logo {
+    width: 270px;
+    margin: 15px 0;
+}
+
+img {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex start;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.btn {
+    color: black;
+    display: inline-block;
+    background: white;
+    min-width: 200px;
+    padding: 22px 35px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    line-height: 12px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn:hover{
+    opacity: 0.7;
+}
+
+.btn-cta:hover {
+    opacity: 0.7;
+}
+
+h5 {
+    font-size: 12.5px;
+    font-weight: bold;
+    color:  #1ce783;
+    margin: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.line-text-1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.line-text-2 {
+    font-size: 15px;
+    margin: 20px;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 170px;
+    z-index: 1;
+    background: linear-gradient(180deg,
+        rgba(0, 0, 0, 0.76) 15.54%,
+        rgba(0, 0, 0, 0.192) 60.23%,
+        rgba(0, 0, 0, 8e-5) 100%);
+}
+
+.small-text {
+    font-size: 11px;
+    color: darkgray;
+    padding: 15px 0;
+}
+
+.sub-header {
+    display: grid;
+    align-items: center;
+    padding: 25px 40px;
+    position: relative;
+    margin: -150px 0px;
+    z-index: 1;
+    background: linear-gradient(179.81deg, rgba(4,4,4,0.7) .17%,
+     rgba(4,4,4,0.45) 85.02%, rgba(4,4,4,0.3) 112.52%) !important;
+    grid-template-columns: 2fr 4fr 2fr;
+    gap: 65px;
+}
+
+h6 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #1ce783;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.link {
+   display: block; 
+   color: grey;
+   font-size: 12px;
+   margin-top: 6px;
+   text-decoration: underline;
+
+}
+
+.xl-text {
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 80px;
+    margin-bottom: 30px;
+}
+
+.second-text {
+    max-width: 800px;
+    margin-bottom: 15px;
+    font-size: 23px;
+    
+}
+
+div:last-of-type {
+    text-align: center;
+    }
+    
+    
+.btn-outline {
+    background: none;
+    color: white;
+    border: 3px solid;
+    text-transform: uppercase;
+}
+
+.btn-outline:hover {
+    color: white;
+    border-color: grey;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 70px 20px;
+    margin: 150px;
+}
+
+.options .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.options .cards > div {
+    height: 460px;
+    width: 300px;
+    position: relative;
+}
+
+.card-1 {
+    background: url(images/bobsburgers.jpg) no-repeat center center/ cover;
+}
+
+.card-2 {
+    background: url(images/billieholiday.jpg) no-repeat center center/ cover;
+}
+
+.card-3 {
+    background: url(images/nineperfectstrangers.jpg) no-repeat center center/ cover;
+}
+
+.card-4 {
+    background: url(images/billions.jpg) no-repeat center center/ cover;
+}
+
+.small-text-1 {
+    display: block; 
+    font-size: 11px;
+    margin-top: 6px;
+    position: relative;
+    left: 490px;
+    top: 2px;
+}
+
+.cover-text {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    text-align: left;
+}
+
+.options .cover {
+   background: linear-gradient(
+    156.82deg, rgba(0,0,0,0.6) 4.58%, rgba(0,0,0,0) 69.61%),linear-gradient(
+    24.5deg, rgba(0,0,0,0.2) 4.71%, rgba(0,0,0,0) 71.49%); 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0,0;
+}
+
+

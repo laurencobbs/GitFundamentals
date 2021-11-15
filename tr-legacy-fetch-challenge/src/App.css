@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(170deg, rgb(168, 17, 243) 0%, rgb(29, 90, 226) 100%);
+  background-repeat: no repeat;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  margin-top: 300px;
+}
+
+h3 {
+  font-size: 48px;
+}
+
